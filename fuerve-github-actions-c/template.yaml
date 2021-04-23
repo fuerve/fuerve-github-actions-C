@@ -19,6 +19,7 @@ Resources:
           Properties:
             Path: /hello
             Method: get
+    ImageUri: 800166130653.dkr.ecr.us-east-1.amazonaws.com/fuerve-github-actions-c:helloworldfunction-df9343b296e7-dotnet5.0-v1
     Metadata:
       DockerTag: dotnet5.0-v1
       DockerContext: ./src/HelloWorld

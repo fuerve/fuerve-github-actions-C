@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "fuerve-github-actions-c"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-kcrp45g396w1"
+s3_prefix = "fuerve-github-actions-c"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=800166130653.dkr.ecr.us-east-1.amazonaws.com/fuerve-github-actions-c"]
