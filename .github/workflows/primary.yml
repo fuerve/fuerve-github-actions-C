@@ -38,5 +38,7 @@ jobs:
       working-directory: fuerve-github-actions-c
     - name: SAM Build
       run: sam build
+      working-directory: fuerve-github-actions-c
     - name: SAM Deploy
       run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
+      working-directory: fuerve-github-actions-c
